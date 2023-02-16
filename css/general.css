@@ -4,17 +4,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-*:focus {
+/* *:focus {
   outline: none;
-}
+} */
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   color: #555;
   line-height: 1;
+  overflow-x: hidden;
 }
 .container {
   max-width: 120rem;
